@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Layout from "./Halaman/Layout";
+// import Home from "./Halaman/Home";
+// import About from "./Halaman/About";
+// import Contact from "./Halaman/Contact";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,3 +21,20 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// export default function navbar() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Layout />}>
+//           <Route index element={<Home />} />
+//           <Route path="about" element={<About />} />
+//           <Route path="contact" element={<Contact />} />
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
+
+// const hasil = ReactDOM.createRoot(document.getElementById('root'));
+// root.hasil(<navbar />);
